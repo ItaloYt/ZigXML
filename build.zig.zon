@@ -1,0 +1,12 @@
+.{
+    .name = .zxml,
+    .version = "1.0.0",
+    .fingerprint = 0xeb739e95edfe28c3,
+    .minimum_zig_version = "0.16.0-dev.254+6dd0270a1",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "zxml.zig",
+    },
+}
