@@ -6,7 +6,7 @@ pub fn build(b: *std.Build) void {
 
     const zxml = b.addLibrary(.{
         .name = "zxml",
-        .version = .{ .major = 1, .minor = 0, .patch = 0, },
+        .version = .{ .major = 1, .minor = 0, .patch = 1, },
         .root_module = b.addModule("zxml", .{
             .target = target,
             .optimize = optimize,

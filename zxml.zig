@@ -1,5 +1,7 @@
 //! This module is useful for parsing and retrieving information about xml files.
 
+// Olha o quao util é o folding.
+
 const std = @import("std");
 
 pub const UnicodeError = error {
